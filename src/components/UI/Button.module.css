@@ -1,0 +1,20 @@
+.button {
+    margin-top: 20px ;
+    font: inherit;
+    border: 1px solid #45c06a;
+    background:  #45c06a;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    max-width: 100px;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: rgb(85, 207, 248);
+    border-color: rgb(85, 207, 248);
+  }
+  
+  .button:focus {
+    outline: none;
+  }

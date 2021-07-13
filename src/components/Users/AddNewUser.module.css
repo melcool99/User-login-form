@@ -1,0 +1,15 @@
+.main-form{
+    display:flex;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin:20px auto;
+    width: 90%;
+    max-width: 40rem;
+}
+
+.main-form input:focus{
+    background-color: beige;
+}
+
