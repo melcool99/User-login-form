@@ -3,7 +3,7 @@ import classes from "./ErrorModal.module.css";
 import Button from "../UI/Button";
 
 const ErrorModal = (props) => {
-  console.log(props);
+ 
   return (
     <div>
       <div className={classes.backdrop} onClick={props.onErrorHandler}/>
